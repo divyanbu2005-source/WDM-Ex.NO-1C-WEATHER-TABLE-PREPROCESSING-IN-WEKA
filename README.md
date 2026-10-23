@@ -1,5 +1,5 @@
 # WDM-Ex.NO-1C-WEATHER-TABLE-PREPROCESSING-IN-WEKA
-Aim:
+### Aim:
 To apply Pre-Processing techniques to the training data set of Weather Table.
 Description:
 Real world databases are highly influenced to noise, missing and inconsistency due to their queue size so the data can be pre-processed to improve the quality of data and missing results and it also improves the efficiency.
@@ -8,11 +8,12 @@ There are 3 pre-processing techniques they are:
 2)	Remove
 3)	Normalization
 Creation of Weather Table:
-Procedure:
+### Procedure:
 1)	Open Start  Programs  Accessories  Notepad
 2)	Type the following training data set with the help of Notepad for Weather Table.
 
-```@relation weather
+```
+@relation weather
 @attribute outlook {sunny,rainy,overcast} 
 @attribute temparature numeric 
 @attribute humidity numeric
@@ -30,6 +31,8 @@ overcast,64.0,65.0,false,yes
 sunny,72.0,95.0,true,no 
 sunny,69.0,70.0,false,yes 
 rainy,75.0,80.0,false,yes
+```
+
 3)	After that the file is saved with .arff file format.
 4)	Minimize the arff file and then open Start  Programs  weka-3-4.
 5)	Click on weka-3-4, then Weka dialog box is displayed on the screen.
@@ -97,7 +100,7 @@ Weather Table after Normalizing TEMPARATURE, HUMIDITY:
 <img width="733" height="786" alt="image" src="https://github.com/user-attachments/assets/7160dfeb-d2dd-4550-8907-1cd3505dc2d0" />
 
  
-Output:
+### Output:
 Adding Climate as an attribute to the table
 
 <img width="941" height="568" alt="image" src="https://github.com/user-attachments/assets/1b24a184-a93e-40e8-befd-a8e574eaac4e" />
@@ -139,7 +142,7 @@ Normalization of attributes
 
 
 
-Result:
+### Result:
 Thus this program has been successfully executed.
 
 
